@@ -19,9 +19,9 @@ class AttendanceChecker {
             System.out.printf("Attendance: %.2f%%%n", percentage);
 
             if (percentage >= 75) {
-                System.out.println("Status: Eligible for Exam ✓");
+                System.out.println("Status: Eligible for Exam ");
             } else {
-                System.out.println("Status: Not Eligible ✗");
+                System.out.println("Status: Not Eligible ");
             }
         }
 
